@@ -1,0 +1,74 @@
+#container{
+	padding:30px 0 30px 0;
+}
+#CV{
+	background-color:#fff;
+	width:60%;
+	margin:0 auto;/*水平居中*/
+	padding:20px 30px 20px 30px;
+	font-size:12px;
+	line-height:20px;
+	-webkit-box-shadow: #666 0px 0px 10px;/*为了页面有立体感，设置了阴影，方便浏览器适配写了三条语句*/
+    -moz-box-shadow: #666 0px 0px 10px;
+    box-shadow: #666 0px 0px 10px;
+}
+#CV-header{
+	text-align:center;
+}
+#CV-headerRow {
+	display: table-row;/*以表格行的形式出现*/
+}
+#CV-headerRow-1 {
+    display: table-cell;/*以表格单元格的形式出现*/
+	width:90%;
+	vertical-align: top;/*表格单元格垂直靠上对齐*/
+	padding-top:10px;
+}
+#CV-headerRow-2{
+	display: table-cell;/*以表格单元格的形式出现*/
+	vertical-align: top;/*表格单元格垂直靠上对齐*/
+}
+#CV-name{
+	font-size:20px;
+	font-weight:bold;
+	line-height:30px;
+}
+#CV-container{
+	display:table;
+	width:100%;
+	line-height:25px;
+}
+#CV-containerRow{
+	display: table-row;
+}
+h3{
+	margin:10px 0 0 0 ;
+}
+h4{
+	margin:0;
+	line-height:25px;/*设置简历各模块之间的间隔*/
+}
+ul{
+	padding-left:15px;
+	margin:0px 5px 0px 5px;
+}
+#timeRow {
+	display: table-row;/*以表格行的形式出现*/
+}
+#timeRow-1 {
+    display: table-cell;/*以表格单元格的形式出现*/
+	vertical-align: top;/*表格单元格垂直靠上对齐*/
+	width:560px;
+}
+#timeRow-1 h4{
+	text-align:left;
+}
+#timeRow-2{
+	display: table-cell;/*以表格单元格的形式出现*/
+	vertical-align: top right;/*表格单元格垂直靠上对齐*/
+	padding-right:0;
+	text-align:right;
+}
+#timeRow-2 h4{
+	text-align:right;
+}

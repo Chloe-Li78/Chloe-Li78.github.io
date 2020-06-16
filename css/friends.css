@@ -1,0 +1,56 @@
+#container{
+	padding:30px 0 30px 0;
+}
+#friends{
+	width:80%;
+	margin:0 auto;/*水平居中*/
+	padding:20px 50px 20px 50px;
+	border-radius:10px 10px 10px 10px;/*圆角设置*/
+	-webkit-box-shadow: #666 0px 0px 10px;/*为了页面有立体感，设置了阴影，方便浏览器适配写了三条语句*/
+    -moz-box-shadow: #666 0px 0px 10px;
+    box-shadow: #666 0px 0px 10px;
+}
+table{
+	border:solid #fff; 
+	border-width:5px 5px 5px 5px; 
+	background:#FBEFFB;
+	border-collapse:collapse;/*设置表格的边框合并为一个单一的边框*/
+    border-spacing:0px;
+	line-height:2;
+    font-size:14px;
+} 
+td{
+	height:260px;
+	border-bottom:5px dashed #987cb9;
+	border-collapse:collapse;
+    border-spacing:0px;
+	text-decoration:none;
+	line-height:2;
+    font-size:14px;
+    color:#555;
+	text-align:left;
+}
+h1{
+	font-family:STKaiti;
+	color:#D0A9F5;
+	margin:0;
+	margin-left:50px;
+}
+td.title{
+	height:20px;
+	padding:0;
+	padding-top:20px;
+}
+td.img{
+	width:30%;
+	padding:40px 20px 20px 20px;
+}
+ul{
+	font-family:STXinwei;
+	font-size:18px;
+	line-height:30px;
+	padding:0 0 0 20px ;
+}
+li{
+	list-style:none;/*去掉列表项前的默认符号*/
+}

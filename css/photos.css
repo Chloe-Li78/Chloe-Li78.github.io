@@ -1,0 +1,46 @@
+#container{
+	padding:30px 0 30px 0;
+}
+#photos{
+	width:80%;
+	margin:0 auto;/*水平居中*/
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:100px;
+	background-color:#F8E0F7;
+	border:5px dashed #987cb9;/*边框设置*/
+	border-radius:10px 10px 10px 10px;/*圆角设置*/
+}
+h2{
+	font-family:STKaiti;
+	color:#D0A9F5;
+}
+#imgLeft{
+	float:left;/*两个div放在同一行*/
+	width:400px;
+	height:210px;
+	margin:0 30px 0 0;
+}
+#img{
+	width:300px;
+	height:200px;
+	border-radius:5px 5px 5px 5px;
+	background-color:white;
+	padding:7px;
+	margin:0 auto;
+}
+#imgRight{
+	float:left;/*两个div放在同一行*/
+	width:400px;
+	height:210px;
+	margin-bottom:30px;
+}
+ul{
+	font-family:STXinwei;
+	font-size:18px;
+	line-height:30px;
+	padding:20px 0 0 0 ;
+}
+li{
+	list-style:none;/*去掉列表项前的默认符号*/
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Message-Li</title>
+    <link rel="stylesheet" type="text/css" href="css/private.css">
+	<link rel="stylesheet" type="text/css" href="css/message.css">
+  </head> 
+  
+  <body>
+    <!--页眉区header--> 
+    <div id="header"> 
+	   <div id="headerImg"><!--浮于header至上--> 
+	     <div id="headerRow"> 
+		    <div id="headerRow-1"><!--左侧头像--> 
+	            <img id="touxiang" width="80px" height="80px" src="img/touxiang.png" alt="Li Wenxin's photo"> 
+            </div>	
+            <div id="headerRow-2"><!--右侧介绍--> 
+			    <div id="name">栗雯昕</div>
+		        <div id="major">中南财经政法大学  /  信息管理与信息系统、金融</div>
+            </div>	
+          </div>			
+	   </div>
+	    <!--导航区nav-->  
+	   <nav align="right">
+	    <a title="首页" href="index.html"> 首页</a>
+		<a title="个人介绍" href="introduce.html">个人介绍</a>
+		<a title="在线简历" href="CV.html"> 在线简历</a>
+		<a title="照片墙" href="photos.html">   照片墙</a>
+		<a title="朋友圈" href="friends.html"> 朋友圈</a>
+		<a title="留言板" href="message.html"> 留言板</a> 
+	   </nav> 
+	   <!--end of nav--> 
+	</div>
+	<!--end of header--> 
+	
+	<!--内容区container--> 
+	 <div id="container" height="800px"> 
+	    <div id="message">
+		    <div id="tips">留言（3条）</div>
+			<!--留言列表--> 
+		    <ul>
+			    <!--留言1--> 
+			    <li>
+				   <!--访客信息区 visiter-->
+				   <div id="visiter">
+				       <div id="visiterRow">
+					       <div id="visiterRow-1"><!--访客头像-->
+						       <img src="img/visiter1.jpg" width="50px" height="50px">
+						   </div>
+						   <div id="visiterRow-2"><!--访客名称-->
+						       visiter 1
+						   </div>
+					   </div>
+				   </div>
+				   <!--end of visiter-->
+				   <div id="sentence">
+				        你好啊，栗雯昕
+				   </div>
+				   <div id="time">
+				        2020-6-14
+				   </div>
+				</li>
+				<!--留言2-->
+				<li>
+				    <!--访客信息区 visiter-->
+				   <div id="visiter">
+				       <div id="visiterRow">
+					       <div id="visiterRow-1"><!--访客头像-->
+						       <img src="img/visiter2.jpg" width="50px" height="50px">
+						   </div>
+						   <div id="visiterRow-2"><!--访客名称-->
+						       visiter 2
+						   </div>
+					   </div>
+				   </div>
+				   <!--end of visiter-->
+				   <div id="sentence">
+				        很高兴认识你
+				   </div>
+				   <div id="time">
+				        2020-6-7
+				   </div>
+				</li>
+				<!--留言3-->
+				<li>
+				    <!--访客信息区 visiter-->
+				   <div id="visiter">
+				       <div id="visiterRow">
+					       <div id="visiterRow-1"><!--访客头像-->
+						       <img src="img/visiter3.jpg" width="50px" height="50px">
+						   </div>
+						   <div id="visiterRow-2"><!--访客名称-->
+						       visiter 3
+						   </div>
+					   </div>
+				   </div>
+				   <!--end of visiter-->
+				   <div id="sentence">
+				        好久不见了，要常联系呢！
+				   </div>
+				   <div id="time">
+				        2020-5-25
+				   </div>
+				</li>
+			</ul>
+			<!--end of 留言列表--> 
+			<br>
+			<hr  style="height:1px;border:none;border-top:3px dashed #987cb9;">  <!--<hr>为分界线-->
+			<br>
+			<div id="tips">写下你的留言吧</div>
+			
+			<!--留言区 form表单-->
+			<form>
+			    <div class="tableRow">
+		            <p class="columns-1"> 你的名字: </p>
+		            <p> <input type="text" name="name" value=""> </p>
+	            </div>
+				<br>
+			    <div class="tableRow">
+                    <p class="columns-1">
+                        所在地区:
+	                </p>
+		            <p>
+                        <select name="city">
+                            <option value="武汉">武汉</option>
+                            <option value="北京">北京</option>
+                            <option value="上海">上海</option>
+                            <option value="广州">广州</option>
+						    <option value="西安">西安</option>
+						    <option value="Los Angeles">Los Angeles</option>
+						    <option value="其他">其他</option>
+                        </select>
+		            </p>
+	            </div>
+				<br>
+				<div class="tableRow">
+		            <p class="columns-1"> QQ: </p>
+		            <p> <input type="text" name="QQ" value=""> </p>
+	            </div>
+				<br>
+				<div class="tableRow">
+		            <p class="columns-1"> WeChat: </p>
+		            <p> <input type="text" name="WeChat" value=""> </p>
+	            </div>
+				<br>
+	            <div class="tableRow">
+		            <p class="columns-1">是否愿意将留言展示出来: </p>
+		            <p>
+                        <input type="radio" name="beantype" value="whole" checked>是<br>
+                        <input type="radio" name="beantype" value="ground" > 否
+		            </p>
+	            </div>
+				<br>
+			    <div class="tableRow">
+		            <p class="columns-1">留言区: </p>
+		            <p>
+                        <textarea name="comments"></textarea>
+		            </p>
+	            </div>
+	            <div class="tableRow">
+		            <p></p>
+		            <p class="button"> <input type="submit" name="button" value="发布留言"> </p>
+	            </div>
+			</form>
+			<!--end of form-->
+		</div>
+	</div>
+	<!--end of container--> 
+	
+	<!--页脚区footer--> 
+	<div id="footer"> 
+      © 2012, Li Wenxin
+      <br>
+      All trademarks and registered trademarks appearing on 
+      this site are the property of their respective owners.
+	</div>
+    <!--end of nav--> 
+  </body>
+<html>

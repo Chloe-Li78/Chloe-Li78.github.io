@@ -1,0 +1,112 @@
+#message{
+	width:60%;
+	margin:0 auto;/*水平居中*/
+	padding-top:20px;
+	padding-bottom:20px;
+}
+ul{
+	padding:0;
+	margin:10px 0 10px 0;
+}
+li{
+	height:120px;
+	background-color:white;
+	margin-bottom:20px;
+	list-style:none;/*去掉列表项前的默认符号*/
+}
+#tips{
+    color:#987cb9;
+	font-size:20px;
+	font-weight:600;
+}
+#visiter{
+	width:200px;
+	height:50px;
+	padding-top:15px;
+	padding-left:20px;
+	display: table;/*表格形式*/
+}
+#visiterRow {
+	display: table-row;/*以表格行的形式出现*/
+}
+#visiterRow-1 {
+    display: table-cell;/*以表格单元格的形式出现*/
+	width:30%;
+	vertical-align: top;/*表格单元格垂直靠上对齐*/
+}
+#visiterRow-2{
+	display: table-cell;/*以表格单元格的形式出现*/
+	vertical-align: top;/*表格单元格垂直靠上对齐*/
+	line-height:30px;
+	font-size:18px;
+}
+#sentence{
+	font-family:STKaiti;
+	padding-left:120px;
+	font-size:20px;
+}
+#time{
+	font-family:STKaiti;
+	text-align:right;
+	padding-right:20px;
+	font-size:13px;
+}
+form{
+	display:table;
+	width:100%;
+	background-color:#F8E0F7;
+	margin:10px 0 10px 0;
+	font-size:16px;
+	font-family:STKaiti;
+	padding:30px 0 30px 0;
+}
+div.tableRow {
+	display: table-row;
+	border-bottom:20px;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+p.columns-1 {
+	width:200px;
+}
+div.tableRow p:first-child {
+	text-align: right;
+}
+select{
+	font-size:16px;
+	font-family:STKaiti;
+}
+textarea{
+	height:200px;
+	width:80%;
+	border:none;
+	border-radius: 3px; /* 边框弧度半径 */
+}
+input[type=text] {
+	border-radius: 3px; /* 边框弧度半径 */
+	width: 200px;
+}
+select{
+	border-radius: 3px; /* 边框弧度半径 */
+	width: 200px;
+}
+ /* 按钮美化 */
+input[type=submit] {
+	width: 150px; /* 宽度 */
+	height: 30px; /* 高度 */
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 3px; /* 边框弧度半径 */
+	background: #987cb9; /* 背景颜色 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 17px; /* 字体大小 */
+}
+input[type=submit]:hover { 
+	background: #5599FF;/* 鼠标移入按钮范围时改变颜色 */
+}

@@ -1,0 +1,76 @@
+body{
+	background:url(../img/background.jpg);
+	font-family:"Microsoft Yahei";
+	font-size:16px;
+}
+#header{
+	background:url(../img/clear.png);/*clear.png为有透明度的图片，直接设置背景色透明度，元素里的字也会有透明度，所以用word制作了有透明度的图片*/
+	margin: 10px 5px 0px 5px;
+	height: 100px;
+}
+#headerImg{
+	width:500px;
+	height:80px;
+	padding-top:10px;
+	padding-left:40px;
+	position:absolute;  /*设置浮动div*/
+	display: table;/*表格形式*/
+}
+#headerRow {
+	display: table-row;/*以表格行的形式出现*/
+}
+#headerRow-1 {
+    display: table-cell;/*以表格单元格的形式出现*/
+	width:23%;
+	vertical-align: top;/*表格单元格垂直靠上对齐*/
+}
+#headerRow-2{
+	display: table-cell;/*以表格单元格的形式出现*/
+	vertical-align: top;/*表格单元格垂直靠上对齐*/
+	padding-top:10px;
+	line-height:30px;
+}
+#name{
+	font-family:STXinwei;
+	color:black;
+	font-size:25px;
+	font-weight:500;/*100~900定义由粗到细的字符。400 等同于 normal，而 700 等同于 bold。*/
+}
+#major{
+	color:black;
+}
+nav {
+    height:50px;
+	margin-right:30px;
+	padding-top:50px;
+}
+nav a{
+	text-decoration:none;
+	margin-left:20px;
+}
+nav  a:link,nav a:visited {
+	color:#D87FA9;
+	border-bottom: none;
+	font-weight:normal;
+	font-family:"Microsoft Yahei";
+	font-size:18px;
+	line-height:50px;
+}
+nav a:hover{
+	color:#49A3B7; /*设置鼠标悬停颜色*/
+}
+#container{
+    background:url(../img/clear.png);
+	margin: 10px 5px 0px 5px;
+}
+#footer{
+	background:url(../img/clear.png);
+	margin: 10px 5px 0px 5px;
+	height:50px;
+	color:black;
+	line-height:20px;
+	text-align:center;
+	padding-top:15px;
+	font-size:70%;
+}
+
